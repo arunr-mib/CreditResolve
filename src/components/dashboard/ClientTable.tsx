@@ -112,7 +112,11 @@ export default function ClientTable({
               <tr
                 key={client.id}
                 className={`table-row-animate hover:brightness-95 transition-all ${
-                  client.flagged ? 'bg-[#fef9c3]' : idx % 2 === 0 ? 'bg-white' : 'bg-slate-50/50'
+                  client.flagged
+                    ? 'bg-amber-50/60 border-l-2 border-l-amber-400'
+                    : idx % 2 === 0
+                      ? 'bg-white'
+                      : 'bg-slate-50/50'
                 }`}
                 style={{ animationDelay: `${idx * 20}ms` }}
               >

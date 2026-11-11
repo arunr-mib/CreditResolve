@@ -26,10 +26,10 @@ const COLOURS: Record<string, string> = {
 };
 
 const LIGHT_COLOURS: Record<string, string> = {
-  Retail: '#dbeafe',
-  'Mortgage Division': '#dcfce7',
-  'Sales Finance': '#fef3c7',
-  'ID - Mid Stage': '#ede9fe',
+  Retail: '#eff6ff',
+  'Mortgage Division': '#f0fdf4',
+  'Sales Finance': '#fffbeb',
+  'ID - Mid Stage': '#f5f3ff',
 };
 
 // ── Helpers ────────────────────────────────────────────────────────────────

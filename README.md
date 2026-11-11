@@ -42,7 +42,3 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
-
-## Related work
-
-[CreditScout](https://github.com/arunr-mib/creditscout) is a separate, full-stack exploration in the same broad domain (commercial credit risk) — DSCR covenant monitoring rather than problem-loan workout, with a real backend, database, and an AI agent behind it. This repo is the lighter, UI-first sibling: what a concept looks like before it earns a backend.
